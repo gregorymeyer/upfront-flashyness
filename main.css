@@ -1,0 +1,38 @@
+body {
+	margin: auto;
+	width: 960px;
+	border: 1px solid red;
+}
+
+.box {
+	box-sizing: border-box;
+	border: 1px solid black;
+	height: 200px;
+	float: left;
+	display: inline-block;
+	padding-left: 5px;
+	padding-top: 10px;
+	margin: 5px;
+}
+
+.inner-box {
+	padding-top: 7px;
+	padding-left: 20px;
+	height: 180px;
+	border: 1px solid black;
+	box-sizing: border-box;
+}
+
+.inner-box:nth-of-type(1){
+	margin-left: 5%;
+}
+
+.header {
+	margin: 3px;
+ 	background-color: #F0F0F5
+}
+
+.header h1 {
+	color: red;
+	//margin-bottomleft: 32%;
+}
